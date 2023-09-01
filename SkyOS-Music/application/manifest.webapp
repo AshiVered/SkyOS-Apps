@@ -1,0 +1,64 @@
+{
+  "version": "1.1.0",
+  "name": "Audio",
+  "description": "Audio Player",
+  "launch_path": "/index.html",
+  "type": "certified",
+
+
+  "icons": {
+    "56": "/icons/icon-56-56.png",
+    "112": "/icons/icon-112-112.png"
+  },
+	
+  "developer": {
+    "name": "strukturart",
+    "url": "https://strukturart.com"
+  },
+
+
+"csp": "default-src *; script-src 'self'; connect-src *; media-src blob: *; style-src 'self' 'unsafe-inline'; img-src blob: *",
+
+
+  "permissions": {
+  
+ 
+
+            "kaiosextension":{},                
+
+  "systemXHR": {
+  "description": "Required to load remote content"
+  },
+
+  "device-storage:sdcard": {
+  "description": "Read/Write from sd-card",
+  "access": "readwrite"
+  },
+
+"device-storage:music": {
+  "description": "Read from intern storage",
+  "access": "readwrite"
+  },
+
+  "audio-channel-content": { "description": "Play music files in background" },
+
+
+	"spatialnavigation-app-manage": {
+	"navigator.spatialNavigationEnabled": false
+	}
+
+  },
+  "locales": {
+    "en-US": {
+      "name": "Music",
+      "subtitle": "An audio player for SkyOS",
+      "description": "An audio player for SkyOS"
+    },
+    "he": {
+      "name": "מוזיקה",
+      "subtitle": "An audio player for SkyOS",
+      "description": "An audio player for SkyOS"
+    }
+  },
+  "default_locale": "en-US"
+}

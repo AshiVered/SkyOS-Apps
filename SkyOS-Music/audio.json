@@ -1,0 +1,15 @@
+[
+		{
+			"url":"http://www.ndr.de/podcast/podcast3008.xml",
+			"episodes":"2"
+		},
+		{
+			"url":"http://podcast.wdr.de/radio/leonardo.xml",
+			"episodes":"2"
+		},
+		{
+			"download_path":"/storage/sdcard/podcast/"
+		}
+]
+
+
